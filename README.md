@@ -45,21 +45,21 @@ These instructions will help you set up the project on your local machine for de
 
 3.  Install the required packages:
 
-        ```
-        pip install -r requirements.txt
-        ```
+    ```
+    pip install -r requirements.txt
+    ```
 
 4.  (Optional) Build the Docker image:
 
-        ```
-        docker build -t health-data-aggregator .
-        ```
+    ```
+    docker build -t health-data-aggregator .
+    ```
 
 5.  (Optional) Run the Docker image:
 
-        ```
-        docker run -p 4000:80 health-data-aggregator
-        ```
+    ```
+    docker run -p 4000:80 health-data-aggregator
+    ```
 
 6.  Visit http://localhost:4000 to access the dashboard (or wherever your application is being served).
 
@@ -79,9 +79,9 @@ These instructions will help you set up the project on your local machine for de
 
 3. For Docker:
 
-```
-docker run -p 4000:80 health-data-aggregator
-```
+   ```
+   docker run -p 4000:80 health-data-aggregator
+   ```
 
 Visit http://localhost:4000 to access the dashboard (or wherever your application is being served).
 
