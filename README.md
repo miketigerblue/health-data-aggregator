@@ -67,9 +67,9 @@ These instructions will help you set up the project on your local machine for de
 
 1. Set up your environment variables in a .env file.
 
-```API_KEY=YourActualAPIKey
-
-```
+   ```
+   API_KEY=YourActualAPIKey
+   ```
 
 2. Run the main script:
 
